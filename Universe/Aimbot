@@ -223,7 +223,7 @@ StuffyBoy53:AddToggle("AimWallCheck", { Text = "Wall Check", Default = false })
 StuffyBoy53:AddDropdown("AimHitbox", { Values = {"Head", "Torso", "Random", "Nearest"}, Default = 1, Multi = false, Text = "Target Hitbox" })
 
 
-StuffyBoy8:AddSlider("TriggerDelay", { Text = "Trigger Delay (ms)", Default = 50, Min = 0, Max = 500, Rounding = 0, Compact = false })
+
 StuffyBoy8:AddToggle("Hitmarker", { Text = "Hitmarker", Default = false })
 StuffyBoy8:AddToggle("HitboxExpander", { Text = "Hitbox Expander", Default = false })
 StuffyBoy8:AddSlider("HitboxSize", { Text = "Hitbox Size", Default = 5, Min = 1, Max = 25, Rounding = 0, Compact = false })
